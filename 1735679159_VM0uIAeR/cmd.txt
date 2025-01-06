@@ -1,0 +1,36 @@
+/usr/bin/g++ test_case.cpp -O1 -o test_case -g
+
+
+(gdb) b main
+Breakpoint 1 at 0x117e: file test_case.cpp, line 38.
+(gdb) r
+Starting program: /home/hzw/Downloads/test_cases/1735679159_VM0uIAeR/test_case 
+
+Breakpoint 1, main () at test_case.cpp:38
+38	int main(){
+(gdb) s
+41	    Container_1* var1869 = new Container_1();
+(gdb) info locals
+var1868 = 0
+var1869 = <optimized out>
+var1870 = <optimized out>
+(gdb) n
+21	    Container_1() : member_4(0.0), member_5(0.0), member_17() {}
+(gdb) n
+47	        var1871 = func9(var1869->member_5, &var1869->member_3);
+(gdb) info locals
+var1871 = <optimized out>
+var1872 = 0x55555556aec0 ""
+var1873 = 0x55555556aed8
+i = 0
+var1868 = 0
+var1869 = 0x55555556aeb0
+var1870 = <optimized out>
+(gdb) p var1867
+$1 = 0
+(gdb) p *var1869
+$2 = {<Container_0> = {member_1 = 0, member_2 = 0 '\000', member_3 = 0}, member_4 = 0, member_5 = 0, member_17 = {member_1 = 0, member_2 = 0 '\000', member_3 = 0}}
+(gdb) q
+
+
+var1869 and info locals missed var1867
