@@ -1,0 +1,1354 @@
+./test_case4.o:	file format elf64-x86-64
+
+.debug_info contents:
+0x00000000: Compile Unit: length = 0x0000075f, format = DWARF32, version = 0x0005, unit_type = DW_UT_compile, abbr_offset = 0x0000, addr_size = 0x08 (next unit at 0x00000763)
+
+0x0000000c: DW_TAG_compile_unit
+              DW_AT_producer	("clang version 19.1.5 (https://github.com/llvm/llvm-project.git ab4b5a2db582958af1ee308a790cfdb42bd24720)")
+              DW_AT_language	(DW_LANG_C_plus_plus_14)
+              DW_AT_name	("test_case4.cpp")
+              DW_AT_str_offsets_base	(0x00000008)
+              DW_AT_stmt_list	(0x00000000)
+              DW_AT_comp_dir	("/home/hzw/Downloads/test_cases/test_case3")
+              DW_AT_low_pc	(0x0000000000000000)
+              DW_AT_ranges	(indexed (0x8) rangelist = 0x000000a0
+                 [0x0000000000001160, 0x000000000000128e)
+                 [0x0000000000001290, 0x0000000000001597)
+                 [0x00000000000015a0, 0x00000000000015b6)
+                 [0x00000000000015c0, 0x00000000000016db)
+                 [0x00000000000016e0, 0x00000000000017b6)
+                 [0x00000000000017c0, 0x0000000000001940)
+                 [0x0000000000001940, 0x000000000000199f)
+                 [0x00000000000019a0, 0x00000000000019d0)
+                 [0x00000000000019d0, 0x00000000000019fc)
+                 [0x0000000000001a00, 0x0000000000001a0a)
+                 [0x0000000000001a10, 0x0000000000001a2b)
+                 [0x0000000000001a30, 0x0000000000001c21)
+                 [0x0000000000001c30, 0x0000000000001d15)
+                 [0x0000000000001d20, 0x0000000000001e99)
+                 [0x0000000000001ea0, 0x0000000000001ed2))
+              DW_AT_addr_base	(0x00000008)
+              DW_AT_rnglists_base	(0x0000000c)
+
+0x0000002b:   DW_TAG_base_type
+                DW_AT_name	("char")
+                DW_AT_encoding	(DW_ATE_signed_char)
+                DW_AT_byte_size	(0x01)
+
+0x0000002f:   DW_TAG_class_type
+                DW_AT_calling_convention	(DW_CC_pass_by_reference)
+                DW_AT_name	("Container_1")
+                DW_AT_byte_size	(0x20)
+                DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                DW_AT_decl_line	(1)
+
+0x00000035:     DW_TAG_member
+                  DW_AT_name	("member_4")
+                  DW_AT_type	(0x00000060 "long double")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(3)
+                  DW_AT_data_member_location	(0x00)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+
+0x0000003f:     DW_TAG_member
+                  DW_AT_name	("member_5")
+                  DW_AT_type	(0x0000002b "char")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(4)
+                  DW_AT_data_member_location	(0x10)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00000049:     DW_TAG_subprogram
+                  DW_AT_name	("Container_1")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(6)
+                  DW_AT_declaration	(true)
+                  DW_AT_external	(true)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+
+0x0000004e:       DW_TAG_formal_parameter
+                    DW_AT_type	(0x00000064 "Container_1 *")
+                    DW_AT_artificial	(true)
+
+0x00000053:       NULL
+
+0x00000054:     DW_TAG_subprogram
+                  DW_AT_name	("~Container_1")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(7)
+                  DW_AT_declaration	(true)
+                  DW_AT_external	(true)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00000059:       DW_TAG_formal_parameter
+                    DW_AT_type	(0x00000064 "Container_1 *")
+                    DW_AT_artificial	(true)
+
+0x0000005e:       NULL
+
+0x0000005f:     NULL
+
+0x00000060:   DW_TAG_base_type
+                DW_AT_name	("long double")
+                DW_AT_encoding	(DW_ATE_float)
+                DW_AT_byte_size	(0x10)
+
+0x00000064:   DW_TAG_pointer_type
+                DW_AT_type	(0x0000002f "Container_1")
+
+0x00000069:   DW_TAG_class_type
+                DW_AT_calling_convention	(DW_CC_pass_by_reference)
+                DW_AT_name	("Container_0")
+                DW_AT_byte_size	(0x50)
+                DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                DW_AT_decl_line	(10)
+
+0x0000006f:     DW_TAG_inheritance
+                  DW_AT_type	(0x0000002f "Container_1")
+                  DW_AT_data_member_location	(0x00)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00000076:     DW_TAG_member
+                  DW_AT_name	("member_1")
+                  DW_AT_type	(0x0000002b "char")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(12)
+                  DW_AT_data_member_location	(0x11)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00000080:     DW_TAG_member
+                  DW_AT_name	("member_2")
+                  DW_AT_type	(0x000000b5 "double")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(13)
+                  DW_AT_data_member_location	(0x18)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+
+0x0000008a:     DW_TAG_member
+                  DW_AT_name	("member_3")
+                  DW_AT_type	(0x000000b9 "int")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(14)
+                  DW_AT_data_member_location	(0x20)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00000094:     DW_TAG_member
+                  DW_AT_name	("member_10")
+                  DW_AT_type	(0x0000002f "Container_1")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(15)
+                  DW_AT_data_member_location	(0x30)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+
+0x0000009e:     DW_TAG_subprogram
+                  DW_AT_name	("Container_0")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(17)
+                  DW_AT_declaration	(true)
+                  DW_AT_external	(true)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000000a3:       DW_TAG_formal_parameter
+                    DW_AT_type	(0x000000bd "Container_0 *")
+                    DW_AT_artificial	(true)
+
+0x000000a8:       NULL
+
+0x000000a9:     DW_TAG_subprogram
+                  DW_AT_name	("~Container_0")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(18)
+                  DW_AT_declaration	(true)
+                  DW_AT_external	(true)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000000ae:       DW_TAG_formal_parameter
+                    DW_AT_type	(0x000000bd "Container_0 *")
+                    DW_AT_artificial	(true)
+
+0x000000b3:       NULL
+
+0x000000b4:     NULL
+
+0x000000b5:   DW_TAG_base_type
+                DW_AT_name	("double")
+                DW_AT_encoding	(DW_ATE_float)
+                DW_AT_byte_size	(0x08)
+
+0x000000b9:   DW_TAG_base_type
+                DW_AT_name	("int")
+                DW_AT_encoding	(DW_ATE_signed)
+                DW_AT_byte_size	(0x04)
+
+0x000000bd:   DW_TAG_pointer_type
+                DW_AT_type	(0x00000069 "Container_0")
+
+0x000000c2:   DW_TAG_class_type
+                DW_AT_calling_convention	(DW_CC_pass_by_reference)
+                DW_AT_name	("Container_2")
+                DW_AT_byte_size	(0x30)
+                DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                DW_AT_decl_line	(21)
+
+0x000000c8:     DW_TAG_inheritance
+                  DW_AT_type	(0x0000002f "Container_1")
+                  DW_AT_data_member_location	(0x00)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000000cf:     DW_TAG_member
+                  DW_AT_name	("member_6")
+                  DW_AT_type	(0x000000b5 "double")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(23)
+                  DW_AT_data_member_location	(0x18)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000000d9:     DW_TAG_member
+                  DW_AT_name	("member_7")
+                  DW_AT_type	(0x00000060 "long double")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(24)
+                  DW_AT_data_member_location	(0x20)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000000e3:     DW_TAG_subprogram
+                  DW_AT_name	("Container_2")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(26)
+                  DW_AT_declaration	(true)
+                  DW_AT_external	(true)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000000e8:       DW_TAG_formal_parameter
+                    DW_AT_type	(0x000000fa "Container_2 *")
+                    DW_AT_artificial	(true)
+
+0x000000ed:       NULL
+
+0x000000ee:     DW_TAG_subprogram
+                  DW_AT_name	("~Container_2")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(27)
+                  DW_AT_declaration	(true)
+                  DW_AT_external	(true)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000000f3:       DW_TAG_formal_parameter
+                    DW_AT_type	(0x000000fa "Container_2 *")
+                    DW_AT_artificial	(true)
+
+0x000000f8:       NULL
+
+0x000000f9:     NULL
+
+0x000000fa:   DW_TAG_pointer_type
+                DW_AT_type	(0x000000c2 "Container_2")
+
+0x000000ff:   DW_TAG_class_type
+                DW_AT_calling_convention	(DW_CC_pass_by_reference)
+                DW_AT_name	("Container_3")
+                DW_AT_byte_size	(0x60)
+                DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                DW_AT_decl_line	(30)
+
+0x00000105:     DW_TAG_inheritance
+                  DW_AT_type	(0x00000069 "Container_0")
+                  DW_AT_data_member_location	(0x00)
+
+0x0000010b:     DW_TAG_member
+                  DW_AT_name	("member_8")
+                  DW_AT_type	(0x000000b9 "int")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(32)
+                  DW_AT_data_member_location	(0x50)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00000115:     DW_TAG_member
+                  DW_AT_name	("member_9")
+                  DW_AT_type	(0x00000136 "float")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(33)
+                  DW_AT_data_member_location	(0x54)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+
+0x0000011f:     DW_TAG_subprogram
+                  DW_AT_name	("Container_3")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(35)
+                  DW_AT_declaration	(true)
+                  DW_AT_external	(true)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00000124:       DW_TAG_formal_parameter
+                    DW_AT_type	(0x0000013a "Container_3 *")
+                    DW_AT_artificial	(true)
+
+0x00000129:       NULL
+
+0x0000012a:     DW_TAG_subprogram
+                  DW_AT_name	("~Container_3")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(36)
+                  DW_AT_declaration	(true)
+                  DW_AT_external	(true)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+
+0x0000012f:       DW_TAG_formal_parameter
+                    DW_AT_type	(0x0000013a "Container_3 *")
+                    DW_AT_artificial	(true)
+
+0x00000134:       NULL
+
+0x00000135:     NULL
+
+0x00000136:   DW_TAG_base_type
+                DW_AT_name	("float")
+                DW_AT_encoding	(DW_ATE_float)
+                DW_AT_byte_size	(0x04)
+
+0x0000013a:   DW_TAG_pointer_type
+                DW_AT_type	(0x000000ff "Container_3")
+
+0x0000013f:   DW_TAG_subprogram
+                DW_AT_low_pc	(0x0000000000001160)
+                DW_AT_high_pc	(0x000000000000128e)
+                DW_AT_frame_base	(DW_OP_reg6 RBP)
+                DW_AT_linkage_name	("_Z6func11xxf")
+                DW_AT_name	("func11")
+                DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                DW_AT_decl_line	(149)
+                DW_AT_type	(0x00000738 "long long")
+                DW_AT_external	(true)
+
+0x0000014f:     DW_TAG_formal_parameter
+                  DW_AT_location	(DW_OP_fbreg -8)
+                  DW_AT_name	("p_0")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(149)
+                  DW_AT_type	(0x00000738 "long long")
+
+0x0000015a:     DW_TAG_formal_parameter
+                  DW_AT_location	(DW_OP_fbreg -16)
+                  DW_AT_name	("p_1")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(149)
+                  DW_AT_type	(0x00000738 "long long")
+
+0x00000165:     DW_TAG_formal_parameter
+                  DW_AT_location	(DW_OP_fbreg -20)
+                  DW_AT_name	("p_2")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(149)
+                  DW_AT_type	(0x00000136 "float")
+
+0x00000170:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -32)
+                  DW_AT_name	("var243")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(151)
+                  DW_AT_type	(0x00000738 "long long")
+
+0x0000017b:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -40)
+                  DW_AT_name	("var244")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(153)
+                  DW_AT_type	(0x00000740 "Container_1 *")
+
+0x00000186:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -56)
+                  DW_AT_name	("var245")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(155)
+                  DW_AT_type	(0x00000136 "float")
+
+0x00000191:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x00000000000011f5)
+                  DW_AT_high_pc	(0x000000000000125c)
+
+0x00000197:       DW_TAG_variable
+                    DW_AT_location	(DW_OP_fbreg -60)
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                    DW_AT_decl_line	(163)
+                    DW_AT_type	(0x000000b9 "int")
+
+0x000001a2:       DW_TAG_lexical_block
+                    DW_AT_low_pc	(0x0000000000001202)
+                    DW_AT_high_pc	(0x0000000000001251)
+
+0x000001a8:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -72)
+                      DW_AT_name	("var246")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(164)
+                      DW_AT_type	(0x00000738 "long long")
+
+0x000001b4:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -80)
+                      DW_AT_name	("var247")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(164)
+                      DW_AT_type	(0x00000738 "long long")
+
+0x000001c0:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -84)
+                      DW_AT_name	("var248")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(166)
+                      DW_AT_type	(0x00000136 "float")
+
+0x000001cc:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -96)
+                      DW_AT_name	("var249")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(168)
+                      DW_AT_type	(0x00000745 "char *")
+
+0x000001d8:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -97)
+                      DW_AT_name	("var250")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(170)
+                      DW_AT_type	(0x0000073c "unsigned char")
+
+0x000001e4:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -112)
+                      DW_AT_name	("var251")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(171)
+                      DW_AT_type	(0x000000b5 "double")
+
+0x000001f0:         NULL
+
+0x000001f1:       NULL
+
+0x000001f2:     NULL
+
+0x000001f3:   DW_TAG_subprogram
+                DW_AT_low_pc	(0x00000000000015a0)
+                DW_AT_high_pc	(0x00000000000015b6)
+                DW_AT_frame_base	(DW_OP_reg6 RBP)
+                DW_AT_object_pointer	(0x00000204)
+                DW_AT_linkage_name	("_ZN11Container_1C2Ev")
+                DW_AT_specification	(0x00000049 "Container_1")
+
+0x00000204:     DW_TAG_formal_parameter
+                  DW_AT_location	(DW_OP_fbreg -8)
+                  DW_AT_name	("this")
+                  DW_AT_type	(0x00000740 "Container_1 *")
+                  DW_AT_artificial	(true)
+
+0x0000020d:     NULL
+
+0x0000020e:   DW_TAG_subprogram
+                DW_AT_low_pc	(0x00000000000015c0)
+                DW_AT_high_pc	(0x00000000000016db)
+                DW_AT_frame_base	(DW_OP_reg6 RBP)
+                DW_AT_linkage_name	("_Z5func5IfEfT_")
+                DW_AT_name	("func5<float>")
+                DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                DW_AT_decl_line	(125)
+                DW_AT_type	(0x00000136 "float")
+                DW_AT_external	(true)
+
+0x0000021e:     DW_TAG_formal_parameter
+                  DW_AT_location	(DW_OP_fbreg -4)
+                  DW_AT_name	("p_0")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(125)
+                  DW_AT_type	(0x00000136 "float")
+
+0x00000229:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -8)
+                  DW_AT_name	("var32")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(127)
+                  DW_AT_type	(0x00000136 "float")
+
+0x00000234:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -16)
+                  DW_AT_name	("var33")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(129)
+                  DW_AT_type	(0x0000074a "Container_2 *")
+
+0x0000023f:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -29)
+                  DW_AT_name	("var34")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(131)
+                  DW_AT_type	(0x0000002b "char")
+
+0x0000024a:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -30)
+                  DW_AT_name	("var35")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(139)
+                  DW_AT_type	(0x0000073c "unsigned char")
+
+0x00000255:     DW_TAG_template_type_parameter
+                  DW_AT_type	(0x00000136 "float")
+                  DW_AT_name	("T1")
+
+0x0000025b:     NULL
+
+0x0000025c:   DW_TAG_subprogram
+                DW_AT_low_pc	(0x00000000000016e0)
+                DW_AT_high_pc	(0x00000000000017b6)
+                DW_AT_frame_base	(DW_OP_reg6 RBP)
+                DW_AT_linkage_name	("_Z5func2IxEhT_")
+                DW_AT_name	("func2<long long>")
+                DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                DW_AT_decl_line	(100)
+                DW_AT_type	(0x0000073c "unsigned char")
+                DW_AT_external	(true)
+
+0x0000026c:     DW_TAG_formal_parameter
+                  DW_AT_location	(DW_OP_fbreg -8)
+                  DW_AT_name	("p_0")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(100)
+                  DW_AT_type	(0x00000738 "long long")
+
+0x00000277:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -9)
+                  DW_AT_name	("var23")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(102)
+                  DW_AT_type	(0x0000073c "unsigned char")
+
+0x00000282:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -10)
+                  DW_AT_name	("var24")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(102)
+                  DW_AT_type	(0x0000073c "unsigned char")
+
+0x0000028d:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -11)
+                  DW_AT_name	("var25")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(102)
+                  DW_AT_type	(0x0000073c "unsigned char")
+
+0x00000298:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -24)
+                  DW_AT_name	("var26")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(104)
+                  DW_AT_type	(0x00000738 "long long")
+
+0x000002a3:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -25)
+                  DW_AT_name	("var27")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(106)
+                  DW_AT_type	(0x0000073c "unsigned char")
+
+0x000002ae:     DW_TAG_lexical_block
+                  DW_AT_ranges	(indexed (0x0) rangelist = 0x00000030
+                     [0x0000000000001729, 0x00000000000017a4)
+                     [0x00000000000017ad, 0x00000000000017b6))
+
+0x000002b0:       DW_TAG_variable
+                    DW_AT_location	(DW_OP_fbreg -26)
+                    DW_AT_name	("var28")
+                    DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                    DW_AT_decl_line	(111)
+                    DW_AT_type	(0x0000073c "unsigned char")
+
+0x000002bb:       DW_TAG_variable
+                    DW_AT_location	(DW_OP_fbreg -27)
+                    DW_AT_name	("var29")
+                    DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                    DW_AT_decl_line	(111)
+                    DW_AT_type	(0x0000073c "unsigned char")
+
+0x000002c6:       DW_TAG_variable
+                    DW_AT_location	(DW_OP_fbreg -28)
+                    DW_AT_name	("var30")
+                    DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                    DW_AT_decl_line	(112)
+                    DW_AT_type	(0x0000073c "unsigned char")
+
+0x000002d1:       DW_TAG_variable
+                    DW_AT_location	(DW_OP_fbreg -40)
+                    DW_AT_name	("var31")
+                    DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                    DW_AT_decl_line	(114)
+                    DW_AT_type	(0x0000074f "Container_0 *")
+
+0x000002dc:       NULL
+
+0x000002dd:     DW_TAG_template_type_parameter
+                  DW_AT_type	(0x00000738 "long long")
+                  DW_AT_name	("T1")
+
+0x000002e3:     NULL
+
+0x000002e4:   DW_TAG_subprogram
+                DW_AT_low_pc	(0x00000000000017c0)
+                DW_AT_high_pc	(0x0000000000001940)
+                DW_AT_frame_base	(DW_OP_reg6 RBP)
+                DW_AT_linkage_name	("_Z5func1IcEdT_")
+                DW_AT_name	("func1<char>")
+                DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                DW_AT_decl_line	(72)
+                DW_AT_type	(0x000000b5 "double")
+                DW_AT_external	(true)
+
+0x000002f4:     DW_TAG_formal_parameter
+                  DW_AT_location	(DW_OP_fbreg -1)
+                  DW_AT_name	("p_0")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(72)
+                  DW_AT_type	(0x0000002b "char")
+
+0x000002ff:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -16)
+                  DW_AT_name	("var14")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(74)
+                  DW_AT_type	(0x000000b5 "double")
+
+0x0000030a:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -24)
+                  DW_AT_name	("var15")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(74)
+                  DW_AT_type	(0x000000b5 "double")
+
+0x00000315:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -25)
+                  DW_AT_name	("var16")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(76)
+                  DW_AT_type	(0x0000002b "char")
+
+0x00000320:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -40)
+                  DW_AT_name	("var17")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(78)
+                  DW_AT_type	(0x00000754 "Container_3 *")
+
+0x0000032b:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x0000000000001837)
+                  DW_AT_high_pc	(0x0000000000001910)
+
+0x00000331:       DW_TAG_variable
+                    DW_AT_location	(DW_OP_fbreg -56)
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                    DW_AT_decl_line	(82)
+                    DW_AT_type	(0x000000b9 "int")
+
+0x0000033c:       DW_TAG_lexical_block
+                    DW_AT_low_pc	(0x0000000000001848)
+                    DW_AT_high_pc	(0x0000000000001902)
+
+0x00000342:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -64)
+                      DW_AT_name	("var18")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(83)
+                      DW_AT_type	(0x000000b5 "double")
+
+0x0000034d:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -72)
+                      DW_AT_name	("var19")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(83)
+                      DW_AT_type	(0x000000b5 "double")
+
+0x00000359:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -80)
+                      DW_AT_name	("var20")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(83)
+                      DW_AT_type	(0x000000b5 "double")
+
+0x00000365:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -88)
+                      DW_AT_name	("var21")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(85)
+                      DW_AT_type	(0x00000759 "double *")
+
+0x00000371:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -96)
+                      DW_AT_name	("var22")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(86)
+                      DW_AT_type	(0x00000759 "double *")
+
+0x0000037d:         NULL
+
+0x0000037e:       NULL
+
+0x0000037f:     DW_TAG_template_type_parameter
+                  DW_AT_type	(0x0000002b "char")
+                  DW_AT_name	("T1")
+
+0x00000385:     NULL
+
+0x00000386:   DW_TAG_subprogram
+                DW_AT_low_pc	(0x0000000000001290)
+                DW_AT_high_pc	(0x0000000000001597)
+                DW_AT_frame_base	(DW_OP_reg6 RBP)
+                DW_AT_name	("main")
+                DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                DW_AT_decl_line	(178)
+                DW_AT_type	(0x000000b9 "int")
+                DW_AT_external	(true)
+
+0x00000395:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -8)
+                  DW_AT_name	("var579")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(180)
+                  DW_AT_type	(0x000000b9 "int")
+
+0x000003a0:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -96)
+                  DW_AT_name	("var580")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(181)
+                  DW_AT_type	(0x00000069 "Container_0")
+
+0x000003ac:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -104)
+                  DW_AT_name	("var581")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(182)
+                  DW_AT_type	(0x00000738 "long long")
+
+0x000003b8:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -112)
+                  DW_AT_name	("var582")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(184)
+                  DW_AT_type	(0x00000738 "long long")
+
+0x000003c4:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -120)
+                  DW_AT_name	("var583")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(185)
+                  DW_AT_type	(0x000000b5 "double")
+
+0x000003d0:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -176)
+                  DW_AT_name	("var584")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(193)
+                  DW_AT_type	(0x000000c2 "Container_2")
+
+0x000003dc:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -190)
+                  DW_AT_name	("var585")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(194)
+                  DW_AT_type	(0x0000075e "short")
+
+0x000003e8:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -191)
+                  DW_AT_name	("var586")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(196)
+                  DW_AT_type	(0x0000002b "char")
+
+0x000003f4:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -196)
+                  DW_AT_name	("var587")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(198)
+                  DW_AT_type	(0x000000b9 "int")
+
+0x00000400:     DW_TAG_lexical_block
+                  DW_AT_ranges	(indexed (0x1) rangelist = 0x0000003c
+                     [0x00000000000013b3, 0x000000000000149f)
+                     [0x00000000000014b9, 0x000000000000151a)
+                     [0x0000000000001532, 0x0000000000001534))
+
+0x00000402:       DW_TAG_variable
+                    DW_AT_location	(DW_OP_fbreg -240)
+                    DW_AT_name	("var588")
+                    DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                    DW_AT_decl_line	(206)
+                    DW_AT_type	(0x0000002f "Container_1")
+
+0x0000040e:       DW_TAG_variable
+                    DW_AT_location	(DW_OP_fbreg -320)
+                    DW_AT_name	("var589")
+                    DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                    DW_AT_decl_line	(207)
+                    DW_AT_type	(0x00000069 "Container_0")
+
+0x0000041a:       DW_TAG_variable
+                    DW_AT_location	(DW_OP_fbreg -322)
+                    DW_AT_name	("var590")
+                    DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                    DW_AT_decl_line	(209)
+                    DW_AT_type	(0x0000075e "short")
+
+0x00000426:       DW_TAG_variable
+                    DW_AT_location	(DW_OP_fbreg -323)
+                    DW_AT_name	("var591")
+                    DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                    DW_AT_decl_line	(210)
+                    DW_AT_type	(0x0000073c "unsigned char")
+
+0x00000432:       DW_TAG_variable
+                    DW_AT_location	(DW_OP_fbreg -328)
+                    DW_AT_name	("var592")
+                    DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                    DW_AT_decl_line	(211)
+                    DW_AT_type	(0x00000136 "float")
+
+0x0000043e:       DW_TAG_variable
+                    DW_AT_location	(DW_OP_fbreg -332)
+                    DW_AT_name	("var593")
+                    DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                    DW_AT_decl_line	(213)
+                    DW_AT_type	(0x00000136 "float")
+
+0x0000044a:       DW_TAG_lexical_block
+                    DW_AT_ranges	(indexed (0x2) rangelist = 0x0000004e
+                       [0x0000000000001445, 0x000000000000149f)
+                       [0x00000000000014ff, 0x000000000000151a))
+
+0x0000044c:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -333)
+                      DW_AT_name	("var594")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(220)
+                      DW_AT_type	(0x0000073c "unsigned char")
+
+0x00000458:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -340)
+                      DW_AT_name	("var595")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(221)
+                      DW_AT_type	(0x000000b9 "int")
+
+0x00000464:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -352)
+                      DW_AT_name	("var596")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(223)
+                      DW_AT_type	(0x00000740 "Container_1 *")
+
+0x00000470:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -356)
+                      DW_AT_name	("var597")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(224)
+                      DW_AT_type	(0x000000b9 "int")
+
+0x0000047c:         NULL
+
+0x0000047d:       NULL
+
+0x0000047e:     NULL
+
+0x0000047f:   DW_TAG_subprogram
+                DW_AT_low_pc	(0x0000000000001940)
+                DW_AT_high_pc	(0x000000000000199f)
+                DW_AT_frame_base	(DW_OP_reg6 RBP)
+                DW_AT_object_pointer	(0x00000490)
+                DW_AT_linkage_name	("_ZN11Container_0C2Ev")
+                DW_AT_specification	(0x0000009e "Container_0")
+
+0x00000490:     DW_TAG_formal_parameter
+                  DW_AT_location	(DW_OP_fbreg -8)
+                  DW_AT_name	("this")
+                  DW_AT_type	(0x0000074f "Container_0 *")
+                  DW_AT_artificial	(true)
+
+0x00000499:     NULL
+
+0x0000049a:   DW_TAG_subprogram
+                DW_AT_low_pc	(0x00000000000019a0)
+                DW_AT_high_pc	(0x00000000000019d0)
+                DW_AT_frame_base	(DW_OP_reg6 RBP)
+                DW_AT_object_pointer	(0x000004ab)
+                DW_AT_linkage_name	("_ZN11Container_2C2Ev")
+                DW_AT_specification	(0x000000e3 "Container_2")
+
+0x000004ab:     DW_TAG_formal_parameter
+                  DW_AT_location	(DW_OP_fbreg -8)
+                  DW_AT_name	("this")
+                  DW_AT_type	(0x0000074a "Container_2 *")
+                  DW_AT_artificial	(true)
+
+0x000004b4:     NULL
+
+0x000004b5:   DW_TAG_subprogram
+                DW_AT_low_pc	(0x00000000000019d0)
+                DW_AT_high_pc	(0x00000000000019fc)
+                DW_AT_frame_base	(DW_OP_reg6 RBP)
+                DW_AT_object_pointer	(0x000004c6)
+                DW_AT_linkage_name	("_ZN11Container_0D2Ev")
+                DW_AT_specification	(0x000000a9 "~Container_0")
+
+0x000004c6:     DW_TAG_formal_parameter
+                  DW_AT_location	(DW_OP_fbreg -8)
+                  DW_AT_name	("this")
+                  DW_AT_type	(0x0000074f "Container_0 *")
+                  DW_AT_artificial	(true)
+
+0x000004cf:     NULL
+
+0x000004d0:   DW_TAG_subprogram
+                DW_AT_low_pc	(0x0000000000001a00)
+                DW_AT_high_pc	(0x0000000000001a0a)
+                DW_AT_frame_base	(DW_OP_reg6 RBP)
+                DW_AT_object_pointer	(0x000004e1)
+                DW_AT_linkage_name	("_ZN11Container_1D2Ev")
+                DW_AT_specification	(0x00000054 "~Container_1")
+
+0x000004e1:     DW_TAG_formal_parameter
+                  DW_AT_location	(DW_OP_fbreg -8)
+                  DW_AT_name	("this")
+                  DW_AT_type	(0x00000740 "Container_1 *")
+                  DW_AT_artificial	(true)
+
+0x000004ea:     NULL
+
+0x000004eb:   DW_TAG_subprogram
+                DW_AT_low_pc	(0x0000000000001a10)
+                DW_AT_high_pc	(0x0000000000001a2b)
+                DW_AT_frame_base	(DW_OP_reg6 RBP)
+                DW_AT_object_pointer	(0x000004fc)
+                DW_AT_linkage_name	("_ZN11Container_2D2Ev")
+                DW_AT_specification	(0x000000ee "~Container_2")
+
+0x000004fc:     DW_TAG_formal_parameter
+                  DW_AT_location	(DW_OP_fbreg -8)
+                  DW_AT_name	("this")
+                  DW_AT_type	(0x0000074a "Container_2 *")
+                  DW_AT_artificial	(true)
+
+0x00000505:     NULL
+
+0x00000506:   DW_TAG_subprogram
+                DW_AT_low_pc	(0x0000000000001a30)
+                DW_AT_high_pc	(0x0000000000001c21)
+                DW_AT_frame_base	(DW_OP_reg6 RBP)
+                DW_AT_linkage_name	("_Z5func0IffEdT_T0_")
+                DW_AT_name	("func0<float, float>")
+                DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                DW_AT_decl_line	(40)
+                DW_AT_type	(0x000000b5 "double")
+                DW_AT_external	(true)
+
+0x00000516:     DW_TAG_formal_parameter
+                  DW_AT_location	(DW_OP_fbreg -4)
+                  DW_AT_name	("p_0")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(40)
+                  DW_AT_type	(0x00000136 "float")
+
+0x00000521:     DW_TAG_formal_parameter
+                  DW_AT_location	(DW_OP_fbreg -8)
+                  DW_AT_name	("p_1")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(40)
+                  DW_AT_type	(0x00000136 "float")
+
+0x0000052c:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -16)
+                  DW_AT_name	("var1")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(42)
+                  DW_AT_type	(0x000000b5 "double")
+
+0x00000537:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -24)
+                  DW_AT_name	("var2")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(42)
+                  DW_AT_type	(0x000000b5 "double")
+
+0x00000542:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -32)
+                  DW_AT_name	("var3")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(44)
+                  DW_AT_type	(0x000000b5 "double")
+
+0x0000054d:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -36)
+                  DW_AT_name	("var4")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(45)
+                  DW_AT_type	(0x00000136 "float")
+
+0x00000558:     DW_TAG_lexical_block
+                  DW_AT_ranges	(indexed (0x3) rangelist = 0x0000005b
+                     [0x0000000000001acc, 0x0000000000001c0a)
+                     [0x0000000000001c18, 0x0000000000001c21))
+
+0x0000055a:       DW_TAG_variable
+                    DW_AT_location	(DW_OP_fbreg -40)
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                    DW_AT_decl_line	(51)
+                    DW_AT_type	(0x000000b9 "int")
+
+0x00000565:       DW_TAG_lexical_block
+                    DW_AT_ranges	(indexed (0x4) rangelist = 0x00000068
+                       [0x0000000000001add, 0x0000000000001bfc)
+                       [0x0000000000001c18, 0x0000000000001c21))
+
+0x00000567:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -48)
+                      DW_AT_name	("var5")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(52)
+                      DW_AT_type	(0x000000b5 "double")
+
+0x00000572:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -56)
+                      DW_AT_name	("var6")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(52)
+                      DW_AT_type	(0x000000b5 "double")
+
+0x0000057d:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -64)
+                      DW_AT_name	("var7")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(52)
+                      DW_AT_type	(0x000000b5 "double")
+
+0x00000588:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -68)
+                      DW_AT_name	("var8")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(54)
+                      DW_AT_type	(0x00000136 "float")
+
+0x00000594:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -72)
+                      DW_AT_name	("var9")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(55)
+                      DW_AT_type	(0x00000136 "float")
+
+0x000005a0:         DW_TAG_lexical_block
+                      DW_AT_ranges	(indexed (0x5) rangelist = 0x00000075
+                         [0x0000000000001b22, 0x0000000000001bfa)
+                         [0x0000000000001c18, 0x0000000000001c21))
+
+0x000005a2:           DW_TAG_variable
+                        DW_AT_location	(DW_OP_fbreg -76)
+                        DW_AT_name	("j")
+                        DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                        DW_AT_decl_line	(57)
+                        DW_AT_type	(0x000000b9 "int")
+
+0x000005ae:           DW_TAG_lexical_block
+                        DW_AT_ranges	(indexed (0x6) rangelist = 0x00000082
+                           [0x0000000000001b3d, 0x0000000000001bcd)
+                           [0x0000000000001be5, 0x0000000000001bfa)
+                           [0x0000000000001c18, 0x0000000000001c21))
+
+0x000005b0:             DW_TAG_variable
+                          DW_AT_location	(DW_OP_fbreg -88)
+                          DW_AT_name	("var10")
+                          DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                          DW_AT_decl_line	(58)
+                          DW_AT_type	(0x000000b5 "double")
+
+0x000005bc:             DW_TAG_variable
+                          DW_AT_location	(DW_OP_fbreg -96)
+                          DW_AT_name	("var11")
+                          DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                          DW_AT_decl_line	(58)
+                          DW_AT_type	(0x000000b5 "double")
+
+0x000005c8:             DW_TAG_variable
+                          DW_AT_location	(DW_OP_fbreg -104)
+                          DW_AT_name	("var12")
+                          DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                          DW_AT_decl_line	(60)
+                          DW_AT_type	(0x000000b5 "double")
+
+0x000005d4:             DW_TAG_variable
+                          DW_AT_location	(DW_OP_fbreg -112)
+                          DW_AT_name	("var13")
+                          DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                          DW_AT_decl_line	(62)
+                          DW_AT_type	(0x00000740 "Container_1 *")
+
+0x000005e0:             NULL
+
+0x000005e1:           NULL
+
+0x000005e2:         NULL
+
+0x000005e3:       NULL
+
+0x000005e4:     DW_TAG_template_type_parameter
+                  DW_AT_type	(0x00000136 "float")
+                  DW_AT_name	("T1")
+
+0x000005ea:     DW_TAG_template_type_parameter
+                  DW_AT_type	(0x00000136 "float")
+                  DW_AT_name	("T2")
+
+0x000005f0:     NULL
+
+0x000005f1:   DW_TAG_subprogram
+                DW_AT_low_pc	(0x0000000000001c30)
+                DW_AT_high_pc	(0x0000000000001d15)
+                DW_AT_frame_base	(DW_OP_reg6 RBP)
+                DW_AT_linkage_name	("_Z5func2IeEhT_")
+                DW_AT_name	("func2<long double>")
+                DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                DW_AT_decl_line	(100)
+                DW_AT_type	(0x0000073c "unsigned char")
+                DW_AT_external	(true)
+
+0x00000601:     DW_TAG_formal_parameter
+                  DW_AT_location	(DW_OP_fbreg -16)
+                  DW_AT_name	("p_0")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(100)
+                  DW_AT_type	(0x00000060 "long double")
+
+0x0000060c:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -17)
+                  DW_AT_name	("var23")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(102)
+                  DW_AT_type	(0x0000073c "unsigned char")
+
+0x00000617:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -18)
+                  DW_AT_name	("var24")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(102)
+                  DW_AT_type	(0x0000073c "unsigned char")
+
+0x00000622:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -19)
+                  DW_AT_name	("var25")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(102)
+                  DW_AT_type	(0x0000073c "unsigned char")
+
+0x0000062d:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -48)
+                  DW_AT_name	("var26")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(104)
+                  DW_AT_type	(0x00000060 "long double")
+
+0x00000638:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -49)
+                  DW_AT_name	("var27")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(106)
+                  DW_AT_type	(0x0000073c "unsigned char")
+
+0x00000643:     DW_TAG_lexical_block
+                  DW_AT_ranges	(indexed (0x7) rangelist = 0x00000094
+                     [0x0000000000001c88, 0x0000000000001d03)
+                     [0x0000000000001d0c, 0x0000000000001d15))
+
+0x00000645:       DW_TAG_variable
+                    DW_AT_location	(DW_OP_fbreg -50)
+                    DW_AT_name	("var28")
+                    DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                    DW_AT_decl_line	(111)
+                    DW_AT_type	(0x0000073c "unsigned char")
+
+0x00000650:       DW_TAG_variable
+                    DW_AT_location	(DW_OP_fbreg -51)
+                    DW_AT_name	("var29")
+                    DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                    DW_AT_decl_line	(111)
+                    DW_AT_type	(0x0000073c "unsigned char")
+
+0x0000065b:       DW_TAG_variable
+                    DW_AT_location	(DW_OP_fbreg -52)
+                    DW_AT_name	("var30")
+                    DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                    DW_AT_decl_line	(112)
+                    DW_AT_type	(0x0000073c "unsigned char")
+
+0x00000666:       DW_TAG_variable
+                    DW_AT_location	(DW_OP_fbreg -64)
+                    DW_AT_name	("var31")
+                    DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                    DW_AT_decl_line	(114)
+                    DW_AT_type	(0x0000074f "Container_0 *")
+
+0x00000671:       NULL
+
+0x00000672:     DW_TAG_template_type_parameter
+                  DW_AT_type	(0x00000060 "long double")
+                  DW_AT_name	("T1")
+
+0x00000678:     NULL
+
+0x00000679:   DW_TAG_subprogram
+                DW_AT_low_pc	(0x0000000000001d20)
+                DW_AT_high_pc	(0x0000000000001e99)
+                DW_AT_frame_base	(DW_OP_reg6 RBP)
+                DW_AT_linkage_name	("_Z5func1IeEdT_")
+                DW_AT_name	("func1<long double>")
+                DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                DW_AT_decl_line	(72)
+                DW_AT_type	(0x000000b5 "double")
+                DW_AT_external	(true)
+
+0x00000689:     DW_TAG_formal_parameter
+                  DW_AT_location	(DW_OP_fbreg -16)
+                  DW_AT_name	("p_0")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(72)
+                  DW_AT_type	(0x00000060 "long double")
+
+0x00000694:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -24)
+                  DW_AT_name	("var14")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(74)
+                  DW_AT_type	(0x000000b5 "double")
+
+0x0000069f:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -32)
+                  DW_AT_name	("var15")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(74)
+                  DW_AT_type	(0x000000b5 "double")
+
+0x000006aa:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -48)
+                  DW_AT_name	("var16")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(76)
+                  DW_AT_type	(0x00000060 "long double")
+
+0x000006b5:     DW_TAG_variable
+                  DW_AT_location	(DW_OP_fbreg -56)
+                  DW_AT_name	("var17")
+                  DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                  DW_AT_decl_line	(78)
+                  DW_AT_type	(0x00000754 "Container_3 *")
+
+0x000006c0:     DW_TAG_lexical_block
+                  DW_AT_low_pc	(0x0000000000001d8d)
+                  DW_AT_high_pc	(0x0000000000001e66)
+
+0x000006c6:       DW_TAG_variable
+                    DW_AT_location	(DW_OP_fbreg -72)
+                    DW_AT_name	("i")
+                    DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                    DW_AT_decl_line	(82)
+                    DW_AT_type	(0x000000b9 "int")
+
+0x000006d2:       DW_TAG_lexical_block
+                    DW_AT_low_pc	(0x0000000000001d9e)
+                    DW_AT_high_pc	(0x0000000000001e58)
+
+0x000006d8:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -80)
+                      DW_AT_name	("var18")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(83)
+                      DW_AT_type	(0x000000b5 "double")
+
+0x000006e4:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -88)
+                      DW_AT_name	("var19")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(83)
+                      DW_AT_type	(0x000000b5 "double")
+
+0x000006f0:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -96)
+                      DW_AT_name	("var20")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(83)
+                      DW_AT_type	(0x000000b5 "double")
+
+0x000006fc:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -104)
+                      DW_AT_name	("var21")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(85)
+                      DW_AT_type	(0x00000759 "double *")
+
+0x00000708:         DW_TAG_variable
+                      DW_AT_location	(DW_OP_fbreg -112)
+                      DW_AT_name	("var22")
+                      DW_AT_decl_file	("/home/hzw/Downloads/test_cases/test_case3/./test_case4.cpp")
+                      DW_AT_decl_line	(86)
+                      DW_AT_type	(0x00000759 "double *")
+
+0x00000714:         NULL
+
+0x00000715:       NULL
+
+0x00000716:     DW_TAG_template_type_parameter
+                  DW_AT_type	(0x00000060 "long double")
+                  DW_AT_name	("T1")
+
+0x0000071c:     NULL
+
+0x0000071d:   DW_TAG_subprogram
+                DW_AT_low_pc	(0x0000000000001ea0)
+                DW_AT_high_pc	(0x0000000000001ed2)
+                DW_AT_frame_base	(DW_OP_reg6 RBP)
+                DW_AT_object_pointer	(0x0000072e)
+                DW_AT_linkage_name	("_ZN11Container_3C2Ev")
+                DW_AT_specification	(0x0000011f "Container_3")
+
+0x0000072e:     DW_TAG_formal_parameter
+                  DW_AT_location	(DW_OP_fbreg -8)
+                  DW_AT_name	("this")
+                  DW_AT_type	(0x00000754 "Container_3 *")
+                  DW_AT_artificial	(true)
+
+0x00000737:     NULL
+
+0x00000738:   DW_TAG_base_type
+                DW_AT_name	("long long")
+                DW_AT_encoding	(DW_ATE_signed)
+                DW_AT_byte_size	(0x08)
+
+0x0000073c:   DW_TAG_base_type
+                DW_AT_name	("unsigned char")
+                DW_AT_encoding	(DW_ATE_unsigned_char)
+                DW_AT_byte_size	(0x01)
+
+0x00000740:   DW_TAG_pointer_type
+                DW_AT_type	(0x0000002f "Container_1")
+
+0x00000745:   DW_TAG_pointer_type
+                DW_AT_type	(0x0000002b "char")
+
+0x0000074a:   DW_TAG_pointer_type
+                DW_AT_type	(0x000000c2 "Container_2")
+
+0x0000074f:   DW_TAG_pointer_type
+                DW_AT_type	(0x00000069 "Container_0")
+
+0x00000754:   DW_TAG_pointer_type
+                DW_AT_type	(0x000000ff "Container_3")
+
+0x00000759:   DW_TAG_pointer_type
+                DW_AT_type	(0x000000b5 "double")
+
+0x0000075e:   DW_TAG_base_type
+                DW_AT_name	("short")
+                DW_AT_encoding	(DW_ATE_signed)
+                DW_AT_byte_size	(0x02)
+
+0x00000762:   NULL
